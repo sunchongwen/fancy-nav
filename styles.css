@@ -157,13 +157,14 @@ nav {
   /* position: absolute; */
    top: 0;
   left: 160%;
+  transition: all 850ms ;
  } 
 
  .nav-list li:hover > .sub-menu{
    top: 8rem;
    visibility: visible;
    opacity: 1;
-   
+   transition: all 850ms ;
  }
  /* top 从8到 0 left 从160到100*/
  .sub-menu li:hover > .sub-menu{
